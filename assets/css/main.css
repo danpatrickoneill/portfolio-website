@@ -1962,6 +1962,7 @@ input, select, textarea {
 		.icon.featured {
 			color: #EA8A95;
 			display: block;
+			display: none;
 			margin: 0 0 1.5em 0;
 			cursor: default;
 		}
@@ -2332,6 +2333,7 @@ input, select, textarea {
 		/* Box */
 
 			.box {
+				height: 300px;
 				padding: 30px 20px 30px 20px;
 				margin: 0 0 20px 0 !important;
 			}
@@ -2348,7 +2350,7 @@ input, select, textarea {
 					position: relative;
 					left: 20px;
 					top: 20px;
-					margin: -50px 0 50px -40px;
+					margin: 50px 0 50px -40px;
 					width: auto;
 				}
 
